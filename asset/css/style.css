@@ -471,10 +471,11 @@ input[type=text]::placeholder{
     width: 100%;
     max-width: 1000px;
     margin: 2rem auto;
+    transition: var(--transition);
 }
 
 .flex-img{
-    border: 2px solid var(--clr-gray);
+    border: 1.5px solid var(--clr-gray);
     border-radius: var(--radius);
     margin: 2rem 1rem;
     height: 300px;
@@ -483,6 +484,7 @@ input[type=text]::placeholder{
     cursor: pointer;
     overflow: hidden;
     padding-top: 1rem;
+    transition: var(--transition);
 }
 
 .img img{
@@ -510,6 +512,7 @@ input[type=text]::placeholder{
     font-weight: bold;
     word-spacing: var(--spacing);
     color: var(--clr-black);
+    text-transform: capitalize;
 }
 
 .price{
