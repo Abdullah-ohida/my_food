@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/e2052a1ca7.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/asset/css/style.css">
+    <link rel="stylesheet" href="asset/css/sign-up.css">
+    <title>SignUp_Page</title>
+</head>
+
+<body>
+    <div class="container">
+      <!-- Header -->
+      <div id="home">
+        <!-- nav -->
+        <nav class="nav">
+            <!-- nav-center -->
+            <div class="nav-center">
+                <!-- nav-header -->
+                <div class="nav-header">
+                    <!-- Wed-title -->
+                    <div class="web-title">
+                        <div class="logo-content">
+                            <img src="/asset/imgs/strawberry.svg" alt="strawberry" class="logo">
+                        </div>
+                        <h2>freshfood</h2>
+                    </div>
+                    <!-- nav-toggle -->
+                    <button type="button" class="nav-toggle">
+                        <span class="bars">
+                            <i class="fas fa-bars"></i>
+                        </span>
+                        <span class="times">
+                            <i class="fas fa-times"></i>
+                        </span>
+                    </button>
+                </div>
+                <div class="links-container">
+                    <ul class="links">
+                        <li>
+                            <a href="#home" class="scroll-link">store</a>
+                        </li>
+                        <li>
+                            <a href="#about" class="scroll-link font-icon">
+                                <i class="fas fa-shopping-bag"></i> cart
+                            </a>
+                        </li>
+                        <li>
+                            <a class="login" href="sign-up.html">
+                                <p>login</p>
+                                <i class="fas fa-key"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="flex-container">
+            <div class="sign-modal">
+                <div class="header">
+                    <h2>Welcome back!</h2>
+                    <p>Let's get you set up you can start ordering for your own favourite recipe.</p>
+                </div>
+                <div class="error"></div>
+                <form action="" id="form">
+                   
+                    <div class="email">
+                        <p>Email</p>
+                        <input type="email" placeholder="Your email" id="email" required name="email">
+                    </div>
+                    <div class="email">
+                        <p>Password</p>
+                        <input type="password" placeholder="Your password" id="password" required name="email">
+
+                    </div>
+                    <div class="email">
+                        <label class="container1">I accept Freshfood's <a href="#">Terms & Conditions</a>
+                            <input type="checkbox" id="check">
+                            <span class="checkmark"></span>
+                        </label>
+                    </div>
+                    <main class="onclick">
+                        <button type="button" id="submit">login</button>
+                        <a href="sign-up.html">Or sign up</a>
+                    </main>
+                </form>
+                
+                <section class="media">
+                    <div class="gmail">
+                        <img src="asset/imgs/symbol.svg" alt="" width="50px">
+                    </div>
+                    <div class="fbook">
+                        <img src="/asset/imgs/social-media.svg" alt="" width="50px">
+                    </div>
+                    <div class="twitter">
+                        <img src="asset/imgs/brands-and-logotypes.svg" alt="" width="50px">
+                    </div>
+                </section>
+
+            </div>
+        </div>
+        <!-- Overlay -->
+        <div class="modal-overlay">
+            <div class="modal-container">
+                <p>Your're welcome back, check our update!</p>
+                <button class="close-btn">
+                    <i class="fas fa-times"></i>
+                </button>
+                <a href="index.html" class="redirect">go home</a>
+            </div>
+        </div>
+    </div>
+    <script src="/asset/js/app.js"></script>
+    <script src="/asset/js/sign.js"></script>
+</body>
+
+</html>

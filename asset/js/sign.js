@@ -6,7 +6,8 @@ const closeBtn = document.querySelector('.close-btn');
 // const text = document.getElementById('text');
 // const lastText = document.getElementById("text-last");
 // const form = document.getElementById('form');
-const reload = document.querySelector('.redirect');
+const reload = document.querySelector('#btn');
+const redirect = document.querySelector('.redirect');
 
     submitBtn.addEventListener('click', function(){
         overlay.classList.add("open-modal");
@@ -15,4 +16,15 @@ const reload = document.querySelector('.redirect');
 closeBtn.addEventListener('click', function(){
     overlay.classList.remove("open-modal");
 });
+
+reload.addEventListener("click", function(){
+    window.location.href = "login.html";
+});
+
+redirect.addEventListener("click", function(){
+    window.location.href = "index.html";
+});
+
+
+
 
