@@ -18,11 +18,11 @@ closeBtn.addEventListener('click', function(){
 });
 
 reload.addEventListener("click", function(){
-    window.location.href = "login.html";
+    window.location.replace("login.html");
 });
 
 redirect.addEventListener("click", function(){
-    window.location.href = "index.html";
+    window.location.replace("index.html");
 });
 
 

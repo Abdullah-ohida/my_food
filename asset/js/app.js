@@ -8,6 +8,7 @@ navToggle.addEventListener('click', function(){
     navToggle.classList.toggle('show-icon')
 });
 
+
 // ========= Date ===========
 const date = document.querySelector('.date');
 date.innerHTML = new Date().getFullYear();
@@ -23,6 +24,9 @@ window.addEventListener('scroll', function(){
         topLink.classList.remove('show-top')
     }
 });
+
+//  Underline
+
 // ========= Load Images ===========
 const menu = [
     {
@@ -30,7 +34,7 @@ const menu = [
       title: "buttermilk pancakes",
       category: "others",
       price: 15.99,
-      img: "/asset/imgs/images/item-1.jpeg",
+      img: "/asset/imgs/images/vege-1.png",
       desc: `I'm baby woke mlkshk wolf bitters live-edge blue bottle, hammock freegan copper mug whatever cold-pressed `,
     },
     {
@@ -38,7 +42,7 @@ const menu = [
       title: "diner double",
       category: "others",
       price: 13.99,
-      img: "/asset/imgs/images/item-2.jpeg",
+      img: "/asset/imgs/images/vege-2.png",
       desc: `vaporware iPhone mumblecore selvage raw denim slow-carb leggings gochujang helvetica man braid jianbing. Marfa thundercats `,
     },
     {
@@ -46,7 +50,7 @@ const menu = [
       title: "godzilla milkshake",
       category: "vegetable",
       price: 6.99,
-      img: "/asset/imgs/images/item-3.jpeg",
+      img: "/asset/imgs/images/vege-3.png",
       desc: `ombucha chillwave fanny pack 3 wolf moon street art photo booth before they sold out organic viral.`,
     },
     {
@@ -54,15 +58,15 @@ const menu = [
       title: "country delight",
       category: "vegetable",
       price: 20.99,
-      img: "/asset/imgs/images/item-4.jpeg",
+      img: "/asset/imgs/images/vege-4.png",
       desc: `Shabby chic keffiyeh neutra snackwave pork belly shoreditch. Prism austin mlkshk truffaut, `,
     },
     {
       id: 5,
       title: "egg attack",
-      category: "others",
+      category: "vegetable",
       price: 22.99,
-      img: "/asset/imgs/images/item-5.jpeg",
+      img: "/asset/imgs/images/vege-5.png",
       desc: `franzen vegan pabst bicycle rights kickstarter pinterest meditation farm-to-table 90's pop-up `,
     },
     {
@@ -70,7 +74,7 @@ const menu = [
       title: "oreo dream",
       category: " vegetable",
       price: 18.99,
-      img: "/asset/imgs/images/item-6.jpeg",
+      img: "/asset/imgs/images/vege-6.png",
       desc: `Portland chicharrones ethical edison bulb, palo santo craft beer chia heirloom iPhone everyday`,
     },
     {
@@ -78,7 +82,7 @@ const menu = [
       title: "bacon overflow",
       category: "others",
       price: 8.99,
-      img: "/asset/imgs/images/item-7.jpeg",
+      img: "/asset/imgs/images/vege-7.png",
       desc: `carry jianbing normcore freegan. Viral single-origin coffee live-edge, pork belly cloud bread iceland put a bird `,
     },
     {
@@ -86,15 +90,15 @@ const menu = [
       title: "american classic",
       category: "vegetable",
       price: 12.99,
-      img: "/asset/imgs/images/item-8.jpeg",
+      img: "/asset/imgs/images/vege-8.png",
       desc: `on it tumblr kickstarter thundercats migas everyday carry squid palo santo leggings. Food truck truffaut  `,
     },
     {
       id: 9,
       title: "quarantine buddy",
-      category: "others",
+      category: "vegetable",
       price: 16.99,
-      img: "/asset/imgs/images/item-9.jpeg",
+      img: "/asset/imgs/images/vege-9.png",
       desc: `skateboard fam synth authentic semiotics. Live-edge lyft af, edison bulb yuccie crucifix microdosing.`,
     },
     {
@@ -102,7 +106,7 @@ const menu = [
       title: "bison steak",
       category: "vegetable",
       price: 22.99,
-      img: "/asset/imgs/images/item-10.jpeg",
+      img: "/asset/imgs/images/vege-10.png",
       desc: `skateboard fam synth authentic semiotics. Live-edge lyft af, edison bulb yuccie crucifix microdosing.`,
     },
     {
