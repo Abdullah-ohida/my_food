@@ -849,6 +849,8 @@ footer{
     visibility: hidden;
     z-index: 100;
     display: block;
+    animation: bounce 2s ease-in-out infinite;
+    transition: var(--transition);
 }
 
 .show-top{
