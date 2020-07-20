@@ -402,7 +402,6 @@ header p{
     color: var(--clr-black);
     letter-spacing: var(--spacing);
     outline: none;
-    position: relative;
 }
 
 /*  Target Items */
